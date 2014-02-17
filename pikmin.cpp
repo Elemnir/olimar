@@ -8,7 +8,7 @@ std::vector<std::string> Pikmin::namelist;
 
 Pikmin::Pikmin()
 {
-	std::discrete_distribution<int> disc_dist {3,3,3,1,1,1};
+	std::discrete_distribution<int> disc_dist {8,40,20,8,8,8,8};
 	color = Color(disc_dist(rng));
 
 	std::uniform_int_distribution<int> uni_dist(0, namelist.size() - 1);
