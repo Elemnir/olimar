@@ -14,7 +14,7 @@ int main(int argc, char** argv)
 	Pikmin clyde;
 		
 	map<string, int> counter;
-	for (int i = 0; i < 100000; ++i)
+	for (int i = 0; i < 100; ++i)
 	{
 		clyde = Pikmin();
 		counter[clyde.color()] += 1;
